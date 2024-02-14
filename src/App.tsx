@@ -78,7 +78,7 @@ function App() {
             key={index}
             type="text"
             className="mt-5 bg-white rounded-md p-2 w-56 border-2 border-black"
-            placeholder="Add your ingredient here"
+            placeholder="Add your ingredient here!"
             value={ingredient}
             onChange={(e) => handleIngredientChange(index, e.target.value)}
           />

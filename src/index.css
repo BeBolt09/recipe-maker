@@ -12,7 +12,7 @@ body{
 }
 @font-face {
     font-family: 'CustomFont';
-    src: url('ChildrenTittle.ttf') format('truetype');
+    src: url('src/assets/ChildrenTittle.ttf') format('truetype');
   }
 @tailwind base;
 @tailwind components;
