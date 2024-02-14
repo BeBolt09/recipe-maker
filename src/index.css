@@ -1,6 +1,7 @@
 body{
   background-color:rgb(247, 161, 180);
 }
+
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
@@ -14,6 +15,10 @@ body{
     font-family: 'CustomFont';
     src: url('src/assets/ChildrenTittle.ttf') format('truetype');
   }
+
+h1{
+  font-family: 'CustomFont'
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

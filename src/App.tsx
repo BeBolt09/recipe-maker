@@ -71,7 +71,7 @@ function App() {
   return (
     <>
       <div className="flex items-center justify-center my-24 flex-col">
-        <h1 className="text-3xl font-custom mb-24">Erica's Pantry!</h1>
+        <h1 className="text-3xl mb-24">Erica's Pantry!</h1>
 
         {ingredients.map((ingredient, index) => (
           <input
