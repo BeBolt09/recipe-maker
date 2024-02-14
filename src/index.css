@@ -1,7 +1,15 @@
 body{
   background-color:rgb(247, 161, 180);
 }
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 
+.loader {
+  border-top-color: #3498db;
+  animation: spin 2s linear infinite;
+}
 @font-face {
     font-family: 'CustomFont';
     src: url('ChildrenTittle.ttf') format('truetype');
