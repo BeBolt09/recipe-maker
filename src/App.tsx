@@ -72,7 +72,7 @@ function App() {
     <>
       <div className="flex items-center justify-center mb-12 flex-col">
         {/* <h1 className="text-3xl mb-24">Erica's Pantry !</h1> */}
-        <img src="src/assets/Screenshot 2024-02-14 at 1.49.46 PM.png" className='my-12'/>
+        <img src="ericaspantry.png" className='my-12'/>
 
         {ingredients.map((ingredient, index) => (
           <input
